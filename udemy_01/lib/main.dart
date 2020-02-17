@@ -63,6 +63,7 @@ class _FrasesDoDiaState extends State<FrasesDoDia> {
                   onPressed: () {
                     var num = _gerarFrase();
                     setState(() {
+                      //Gerando dentro do onpressed
                       _padrao = _frases[num];
                     });
                   },
